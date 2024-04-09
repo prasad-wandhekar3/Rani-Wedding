@@ -9744,10 +9744,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .story-image {
-  width: 80%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  padding: 7px;
+  padding: 2px;
 }
 
 
