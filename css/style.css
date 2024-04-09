@@ -27,6 +27,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --scroll-behavior: smooth;
 }
 
 *,
@@ -9726,13 +9727,13 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 700px; /* Adjust the height as needed */
-  width: 100%; /* Set width to 100% to ensure it covers the entire viewport */
+  height: 700px;
+  width: 100%;
 }
 
 @media (max-width: 767px) {
   .bg-gallery {
-    height:1000px; /* Adjust the height for smaller screens */
+    height:1000px; 
     width: 100%;
   }
 }
@@ -9743,9 +9744,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .story-image {
-  width: 100%;
+  width: 80%;
   height: 100%;
   object-fit: cover;
+  padding: 7px;
 }
 
 
